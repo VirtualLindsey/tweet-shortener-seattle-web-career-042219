@@ -14,7 +14,7 @@ d = {
 def word_subsituter(s)
   r = s.split(" ")
   r.each do |i|
-    if d.keys.include? i
+    if d.keys?(i)
   end
 end
 
