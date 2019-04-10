@@ -15,7 +15,7 @@ def dictionary()
   return d
 end
 
-def word_subsituter(s)
+def word_substituter(s)
   d = dictionary()
   r = s.split(" ")
   r.each do |i|
