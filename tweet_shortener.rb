@@ -32,7 +32,7 @@ def bulk_tweet_shortener(a)
   end
 end
 
-def selective_tweet_shortner(s)
+def selective_tweet_shortener(s)
   if s.length > 140
     return word_subsituter(s)
   else
