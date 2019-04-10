@@ -18,7 +18,7 @@ def word_subsituter(s)
       i = d[i]
     end
   end
-  
+  return r.join(" ")
 end
 
 def bulk_tweet_shortener(a, d)
