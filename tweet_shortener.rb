@@ -34,14 +34,14 @@ end
 
 def selective_tweet_shortener(s)
   if s.length > 140
-    return word_subsituter(s)
+    return word_substituter(s)
   else
     return s
   end
 end
 
 def shortened_tweet_truncator(s)
-  s = word_subsituter(s)
+  s = word_substituter(s)
   if s.length > 140
     return s[0..140]
   else
