@@ -1,4 +1,5 @@
-d = {    "hello" : "hi",
+d = {
+    "hello" : "hi",
     "to":"2",
     "too": "2",
     "two" : "2",
@@ -7,4 +8,16 @@ d = {    "hello" : "hi",
     "be" : "b",
     "you" : "u",
     "at" : "@", 
-    "and" : "&"}
+    "and" : "&"
+}
+
+def word_subsituter(s)
+  r = s.split(" ")
+  r.each do |i|
+    if d.keys.include? i
+  end
+end
+
+def bulk_tweet_shortener(a, d)
+  
+end
