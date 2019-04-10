@@ -18,7 +18,7 @@ end
 def word_substituter(s)
   d = dictionary()
   r = s.split(" ")
-  (0..r.length).each do |i|
+  (0...r.length).each do |i|
     s = r[i].downcase
     if d.has_key?(s)
       r[i] = d[s]
