@@ -15,7 +15,10 @@ def word_subsituter(s)
   r = s.split(" ")
   r.each do |i|
     if d.keys?(i)
+      i = d[i]
+    end
   end
+  
 end
 
 def bulk_tweet_shortener(a, d)
