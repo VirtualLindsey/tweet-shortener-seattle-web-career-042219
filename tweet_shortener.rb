@@ -18,9 +18,9 @@ end
 def word_substituter(s)
   d = dictionary()
   r = s.split(" ")
-  r.each do |i|
+  (0..r.length).each do |i|
     if d.has_key?(i)
-      i = d[i]
+      r[i] = d[r[i]]
     end
   end
   return r.join(" ")
