@@ -21,6 +21,6 @@ def word_subsituter(s)
   return r.join(" ")
 end
 
-def bulk_tweet_shortener(a, d)
+def bulk_tweet_shortener(s)
   
 end
