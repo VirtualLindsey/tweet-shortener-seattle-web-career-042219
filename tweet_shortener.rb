@@ -1,4 +1,6 @@
-d = {
+
+def dictionary()
+  d = {
     "hello" => "hi",
     "to"=>"2",
     "too"=> "2",
@@ -10,8 +12,11 @@ d = {
     "at" => "@", 
     "and" => "&"
 }
+  return d
+end
 
 def word_subsituter(s)
+  d = dictionary()
   r = s.split(" ")
   r.each do |i|
     if d.keys?(i)
